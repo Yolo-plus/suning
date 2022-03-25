@@ -1,0 +1,191 @@
+/* 顶部标题 */
+.cart-top {
+  width: 100%;
+  height: 1.76rem;
+  background: white;
+}
+
+.cart-top .content {
+  width: 4.24rem;
+  height: 100%;
+  margin: 0 auto;
+  font-size: .68rem;
+  line-height: 1.76rem;
+}
+
+/* 文字大小不一致，要想底部对齐，只需要将大的字体不包含在标签里即可 */
+.cart-top .content span {
+  font-size: .48rem;
+  padding-left: .4rem;
+  margin-left: .08rem;
+  background: url(../images/address.png) no-repeat center left;
+  background-size: .28rem .32rem;
+}
+
+/* 购物车主体 */
+.cart-body {
+  width: 100%;
+  height: 14.44rem;
+  padding: .48rem;
+}
+
+.cart-body .img-title {
+  width: 8.16rem;
+  height: .56rem;
+  margin: 0 auto .48rem;
+}
+
+/* 图片这种行内块也需要转成块级元素，不仅仅是去除3px，而且可以减少怪异的样式出现 */
+.cart-body .img-title img {
+  width: 100%;
+  display: block;
+}
+
+.cart-body .coupon {
+  width: 14.04rem;
+  height: 4.02rem;
+  margin: 0 auto;
+  background: darkgray;
+  display: flex;
+  background: url(../images/coupon-bg.png) no-repeat center center;
+  background-size: 14.04rem 4.02rem;
+  position: relative;
+  z-index: 10;  /* 显示在上层 */
+}
+
+.cart-body .coupon .left {
+  width: 4.12rem;
+  height: 4.02rem;
+  text-align: center;
+  color: rgb(255, 68, 34);
+  display: flex;
+  align-items: center;
+}
+
+.coupon .left .left-con {
+  width: 100%;
+  height: 2.46rem;
+}
+
+.cart-body .coupon .left h3 {
+  font-size: .86rem;
+  font-weight: 400;
+  height: 1.68rem;
+  line-height: 1.68rem;
+}
+
+.cart-body .coupon .left h3 span {
+  font-size: 1.12rem;
+}
+
+.cart-body .coupon .left h4 {
+  font-size: .52rem;
+  height: .78rem;
+  line-height: .78rem;
+}
+
+.cart-body .coupon .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.cart-body .right .right-title {
+  width: 6rem;
+  height: 1.32rem;
+  margin: 0 0 .2rem .538rem;
+}
+
+/* 两行的话行高为高的一半 */
+.cart-body .right .right-title h3 {
+  font-size: .44rem;
+  height: 100%;
+  line-height: .66rem;
+}
+
+.cart-body .right .right-title span {
+  color: rgb(255, 85, 0);
+}
+
+.cart-body .right .right-bottom {
+  width: 6rem;
+  height: .6rem;
+  margin-left: .538rem;
+}
+
+.cart-body .right .right-bottom p {
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .4rem;
+  color: rgb(153, 153, 153);
+}
+
+.cart-body .right .right-button {
+  width: 2.24rem;
+  height: .88rem;
+  line-height: .88rem;
+  text-align: center;
+  background: rgb(255, 204, 0);
+  border-radius: .24rem;
+  position: absolute;
+  top: 50%;
+  right: .36rem;
+  transform: translateY(-50%);
+  font-size: .48rem;
+}
+
+.cart-body .coupon-btm {
+  width: 14.04rem;
+  height: 4.44rem;
+  background: rgba(255, 222, 205, 0.4);
+  margin: 0 auto;
+  border-radius: .48rem;
+  margin-top: -1.18rem;
+  position: relative;
+}
+
+.cart-body .coupon-btm .show {
+  width: 100%;
+  height: 2.9rem;
+  padding: 0 .48rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.cart-body .coupon-btm .show li {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: .28rem;
+  float: left;
+  padding: .1rem;
+  border-radius: .16rem;
+  background: white;
+}
+
+.cart-body .coupon-btm .show img {
+  width: 2.2rem;
+}
+
+.cart-body > h3 {
+  text-align: center;
+  margin-top: 1.32rem;
+  font-size: .56rem;
+  height: .84rem;
+  line-height: .84rem;
+  color: rgb(102, 102, 102);
+}
+
+.cart-body .browse-btn {
+  width: 2.16rem;
+  height: .96rem;
+  line-height: .92rem;
+  margin: .52rem auto 0;
+  border: .02rem solid grey;
+  border-radius: .36rem;
+  font-size: .48rem;
+  color: rgb(102, 102, 102);
+  text-align: center;
+}

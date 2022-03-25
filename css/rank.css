@@ -1,0 +1,34 @@
+/* 排行榜头部 */
+.rank-top {
+  width: 15rem;
+  height: 7.88rem;
+  background: url(../images/bg_pdy.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.rank-top .top-fix {
+  width: 15rem;
+  height: 1.76rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.rank-top .top-fix .rank-back {
+  width: .86rem;
+  height: 1.76rem;
+  background: url(../images/rank-left.png) no-repeat center center;
+  background-size: .86rem .86rem;
+  margin-left: .48rem;
+}
+
+.rank-top .top-fix .rank-focus {
+  width: 2.16rem;
+  height: .96rem;
+  position: absolute;
+  top: 50%;
+  right: 1.84rem;
+  transform: translateY(-50%);
+  background: url(../images/rank-click.png) no-repeat center center;
+  background-size: 100% 100%;
+}

@@ -1,0 +1,243 @@
+/* 头部 */
+.banner-top {
+  width: 100%;
+  height: 8.24rem;
+  background: rgb(255, 219, 71);
+  padding-top: .36rem;
+} 
+
+.banner-top .banner-title {
+  height: .92rem;
+}
+
+.banner-top .banner-title h3 {
+  height: .92rem;
+  line-height: .92rem;
+  font-size: .72rem;
+  font-weight: 700;
+  text-align: center;
+  background: url(../images/setting.png) no-repeat center right;
+  background-size: .84rem .84rem;
+  margin: 0 .6rem;
+}
+
+.banner-top .banner-info {
+  padding-top: 1.06rem;
+}
+
+.banner-info .info-detail {
+  width: 13.32rem;
+  height: 2.4rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.info-detail .logo {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.info-detail .logo img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  display: block;
+}
+
+.info-detail .detail {
+  flex: 1;
+  background: url(../images/qr-icon.png) no-repeat center right;
+  background-size: 2.4rem 2.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.info-detail .detail .user {
+  margin-left: .6rem;
+  height: 1.68rem;
+  
+}
+
+.info-detail .detail .user h3 {
+  font-size: .56rem;
+  font-weight: 700;
+  height: .84rem;
+  line-height: .84rem;
+  margin-bottom: .24rem;
+}
+
+/* inline-block要慎用 */
+.info-detail .detail .user h4 {
+  font-size: .4rem;
+  color: white;
+  height: .6rem;
+  line-height: .6rem;
+  padding: 0 .24rem;
+  background: rgb(225, 187, 35);
+  border-radius: .3rem;
+  float: left;
+}
+
+.banner-top .entry {
+  width: 100%;
+  height: 3.5rem;
+}
+
+.banner-top .entry ul {
+  height: 100%;
+}
+
+.banner-top .entry li {
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner-top .entry li h3 {
+  font-size: .6rem;
+  font-weight: 700;
+  height: .9rem;
+  line-height: .9rem;
+}
+
+.banner-top .entry li h4 {
+  font-size: .52rem;
+  height: .78rem;
+  line-height: .78rem;
+}
+
+.banner-top .entry .entry-con {
+  width: 100%;
+}
+
+/* 银行联名卡 */
+.vip-box {
+  width: 14.04rem;
+  height: 1.8rem;
+  margin: -0.6rem auto 0;
+  border-radius: .24rem;
+  position: relative;
+  background: white;  
+}
+
+.vip-box .vip-con {
+  width: 13.16rem;
+  height: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.vip-box .vip-con .left {
+  width: 9.96rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vip-box .vip-con .left img {
+  width: 1.8rem;
+  height: 1.2rem;
+}
+
+.vip-box .vip-con .left h3 {
+  font-size: .48rem;
+  width: 7.6rem;
+  height: .72rem;
+  line-height: .72rem;
+}
+
+.vip-box .vip-con .right {
+  width: 2.64rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.vip-box .vip-con .right h3 {
+  width: 100%;
+  height: .72rem;
+  line-height: .72rem;
+  font-size: .48rem;
+  background: url(../images/r-icon.png) no-repeat center right;
+  background-size: .6rem;
+}
+
+/* 订单 */
+.personal-order {
+  width: 14.04rem;
+  height: 5.16rem;
+  margin: .48rem auto 0;
+  border-radius: .24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.personal-order .order-con {
+  width: 13.08rem;
+  height: 4.2rem;
+}
+.personal-order .order-con .order-top {
+  width: 100%;
+  height: .68rem;
+  line-height: .68rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-order .order-con .order-list {
+  width: 100%;
+  height: 3.52rem;
+}
+
+.personal-order .order-con .order-top h3 {
+  font-size: .6rem;
+  font-weight: 700;
+}
+
+.personal-order .order-con .order-top h4 {
+  font-size: .48rem;
+  font-weight: 700;
+  color: rgb(102, 102, 102);
+  padding-right: .48rem;
+  background: url(../images/next.png) no-repeat center right;
+  background-size: .48rem;
+}
+
+.personal-order .order-con .order-list ul {
+  height: 100%;
+}
+
+.personal-order .order-con .order-list li {
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.order-con .order-list .img-p-con {
+  width: 100%;
+  height: 2.18rem;
+  text-align: center;
+  font-size: 0;
+}
+
+.order-con .order-list .img-p-con img {
+  width: 1.2rem;
+}
+
+.order-con .order-list .img-p-con p {
+  font-size: .48rem;
+  color: rgb(102, 102, 102);
+  margin-top: .26rem;
+}

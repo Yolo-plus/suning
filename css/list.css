@@ -1,0 +1,154 @@
+/* 头部搜索 */
+.search {
+  width: 100%;
+  height: 2.16rem;
+  /* background: red; */
+  display: flex;
+}
+
+.search .left {
+  width: 3.6rem;
+  height: 100%;
+  /* background: green; */
+  text-align: center;
+}
+
+.search .left h3 {
+  font-size: .72rem;
+  color: rgb(51, 51, 51);
+  height: 100%;
+  line-height: 2.16rem;
+}
+
+.search .right {
+  flex: 1;
+  /* background: blue; */
+}
+
+.search .right a {
+  display: block;
+  width: 10.44rem;
+  height: 1.28rem;
+  margin: .44rem auto;
+  background: url(../images/search-icon.png) no-repeat #f7f7f7 .4rem center;
+  background-size: .72rem .72rem;
+  font-size: .56rem;
+  color: rgb(153, 153, 153);
+  line-height: 1.28rem;
+  padding-left: 1.32rem;
+  border-radius: .64rem;
+}
+
+/* 热门推荐 */
+.hot-recom {
+  width: 100%;
+  height: calc(100vh - 4.16rem);  /* 减去上和下 */
+  /* background: red; */
+  display: flex;
+}
+
+.hot-recom .left {
+  width: 3.6rem;
+  height: 100%;
+  /* background: green; */
+  overflow-y: auto;
+}
+
+.hot-recom .left li a {
+  text-align: center;
+  height: 2rem;
+  line-height: 2rem;
+  display: block;
+  font-size: .56rem;
+  color: rgb(102, 102, 102);
+  /* background: yellow; */
+}
+
+.hot-recom .left li:nth-child(4) a {
+  font-size: .56rem;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+}
+
+.hot-recom .right {
+  flex: 1;
+  /* background: blue; */
+  padding: 0 .6rem;
+  overflow: hidden;
+}
+
+.hot-recom .right .class {
+  width: 100%;
+  height: 1.52rem;
+  overflow-x: auto;
+  /* background: chartreuse; */
+}
+
+/* 父元素宽度给足，爷元素设置可滚动，祖元素设置超出隐藏 */
+.hot-recom .right .class ul {
+  width: 24.84rem;
+  /* overflow: hidden; */
+}
+
+.hot-recom .right .class li {
+  float: left;
+  margin-right: .84rem;
+  /* background: yellow; */
+}
+
+.hot-recom .right .class li:last-child {
+  margin-right: 0;
+}
+
+.hot-recom .right .class li a {
+  /* width: 1.92rem; */
+  height: 1.52rem;
+  /* display: inline-block; */
+  float: left;
+  font-size: .48rem;
+  color: rgb(102, 102, 102);
+  text-align: center;
+  line-height: 1.52rem;
+}
+
+/* 84 */
+.hot-recom .right .title {
+  height: 1.68rem;
+  padding: .6rem 0;
+}
+
+.hot-recom .right .title h3, 
+.hot-recom .right .class li:nth-child(2) a {
+  font-size: .48rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.hot-recom .right .list ul {
+  width: 100%;
+}
+
+.hot-recom .right .list li {
+  float: left;
+  width: 2.44rem;
+  height: 2.44rem;
+  /* background: red; */
+  margin-right: calc((100% - 7.32rem) / 2);
+  margin-bottom: .44rem;
+}
+
+.hot-recom .right .list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.hot-recom .right .list li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.hot-recom .right .list li img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
