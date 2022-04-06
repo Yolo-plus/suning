@@ -1,7 +1,8 @@
 # 苏宁移动端 - 一级页面
 
 ## 首页
-![图片](https://user-images.githubusercontent.com/61956206/160031315-30e60ee6-d896-4024-af24-cd05e79b494c.png)
+
+<img src="https://user-images.githubusercontent.com/61956206/160031315-30e60ee6-d896-4024-af24-cd05e79b494c.png" alt="" width="375">
 
 ## 分类
 ![图片](https://user-images.githubusercontent.com/61956206/160031550-71cdf4e8-ebb5-49ba-99eb-f5127b2ae221.png)
